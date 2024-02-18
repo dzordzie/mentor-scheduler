@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail</title>
+</head>
+<body>
+    <h1>Mentor detail</h1>
+
+    <ul>
+        <li>Name: <strong th:text="${mentor.name}"/></li>
+        <li>Grade: <strong th:text="${mentor.grade.name}"/></li>
+    </ul>
+</body>
+</html>
